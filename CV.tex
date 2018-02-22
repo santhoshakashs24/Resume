@@ -1,0 +1,353 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% -*- coding: UTF-8; -*-
+% vim: set fenc=utf-8
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% SIMPLE-RESUME-CV
+%% <https://github.com/zachscrivena/simple-resume-cv>
+%% This is free and unencumbered software released into the
+%% public domain; see <http://unlicense.org> for details.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% See "README.md" for instructions on compiling this document.
+
+\documentclass[letterpaper,MMMyyyy,nonstopmode]{simpleresumecv}
+% Class options:
+% a4paper, letterpaper, nonstopmode, draftmode
+% MMMyyyy, ddMMMyyyy, MMMMyyyy, ddMMMMyyyy, yyyyMMdd, yyyyMM, yyyy
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% PREAMBLE.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% CV Info (to be customized).
+\newcommand{\CVAuthor}{Akash L}
+\newcommand{\CVTitle}{Akash l Resume}
+\newcommand{\CVNote}{CV compiled on {\today}}
+\newcommand{\CVWebpage}{https://santhoshakashs24.github.io/}
+
+% PDF settings and properties.
+\hypersetup{
+pdftitle={\CVTitle},
+pdfauthor={\CVAuthor},
+pdfsubject={\CVWebpage},
+pdfcreator={XeLaTeX},
+pdfproducer={},
+pdfkeywords={},
+unicode=true,
+bookmarks=true,
+bookmarksopen=true,
+pdfstartview=FitH,
+pdfpagelayout=OneColumn,
+pdfpagemode=UseOutlines,
+hidelinks,
+breaklinks}
+
+% Shorthand.
+\newcommand{\Code}[1]{\mbox{\textbf{#1}}}
+\newcommand{\CodeCommand}[1]{\mbox{\textbf{\textbackslash{#1}}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% ACTUAL DOCUMENT.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%%%%%%%%%%%%%%%
+% TITLE BLOCK %
+%%%%%%%%%%%%%%%
+
+\Title{\CVAuthor}
+
+
+
+\begin{SubTitle}
+\href{https://goo.gl/maps/z6oyy6AG4ew}
+\#108, 4th Block,NITK, Mangalore, India
+\par
+\href{mailto:akash.16mn03@nitk.edu.in}
+{\color{blue} akash.16mn03@nitk.edu.in}
+\,\SubBulletSymbol\,
++91\,9591115064
+\,\SubBulletSymbol\,
+\href{\CVWebpage}
+{\color{blue} \url{\CVWebpage}}
+\end{SubTitle}
+
+\begin{Body}
+
+%%%%%%%%%%%%%%%
+%% EDUCATION %%
+%%%%%%%%%%%%%%%
+
+\Section
+{Education}
+{Education}
+{PDF:Education}
+
+\Entry
+\href{http://nitk.ac.in/}
+{\color{blue} \textbf{National Institute of Technology, Karnataka}},
+Surathkal, Mangalore, India
+
+\Gap
+\BulletItem
+B.Tech in 
+\href{http://mining.nitk.ac.in/}
+{Mining Engineering}
+\hfill
+\DatestampYMD{2016}{08}{1} --
+\DatestampYMD{2020}{05}{1}
+\begin{Detail}
+\SubBulletItem
+CGPA of 7.92/10.0 (December 2017)
+
+\Gap
+\BulletItem
+{\textbf{High School - }} \href{http://www.kvhebbal.ac.in/}
+{\color{blue} \textbf{Kendriya Vidyalaya Hebbal}}, Bangalore, India (CBSE) - \textbf{83.4\%}
+
+\Gap
+\BulletItem
+{\textbf{Secondary School - }} \href{http://www.kvhebbal.ac.in/}
+{\color{blue} \textbf{Kendriya Vidyalaya Hebbal}}, Bangalore, India (CBSE) - \textbf{9.2/10.0}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%% EXPERIENCE %%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\Section
+{Experience}
+{Experience}
+{PDF:Experience}
+
+\Entry Graphic Designer Intern, 
+\href{https://savemonk.com/}
+{\color{blue} \textbf{Savemonk, }}Mangalore, India 
+\hfill
+\DatestampYMD{2017}{10}{10} --
+\DatestampYMD{2018}{02}{25} 
+
+\Gap
+\BulletItem
+A startup from NITK. It's basically a Web/App based affiliate marketing platform, which provides cashback for the users purchasing goods through them in e-commerce sites. Designed the Carousels (The front end Images), icons, logos for various stores using Adobe Photoshop, Illustrator.
+
+%%%%%%%%%%%%%%%%%%
+%% TECHNICAL SKILLS %%
+%%%%%%%%%%%%%%%%%%
+
+\Section
+{TECHNICAL
+SKILLS}
+{TECHNICAL SKILLS}
+{PDF:TECHNICAL SKILLS}
+
+\Entry
+{\textbf{Languages/Markup and Scripts -}}
+C, C++, Python, HTML, CSS
+
+\Entry
+{\textbf{Database Query Language -}}
+SQL
+
+\Entry
+{\textbf{Tools/Frameworks -}}
+Git, Android Studio, Adobe Photoshop, Adobe Illustrator, Adobe Premiere Pro, \LaTeX\
+
+%%%%%%%%%%%%%%%%%%
+%% RELEVANT COURSES %%
+%%%%%%%%%%%%%%%%%%
+
+\Section
+{RELEVANT
+COURSES}
+{RELEVANT COURSES}
+{PDF:RELEVANT COURSES}
+
+
+\href{https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-introduction-to-algorithms-sma-5503-fall-2005/index.htm}
+{Introduction to Algorithms},
+MIT OPEN COURSEWARE
+\hfill
+%%\DatestampYMD{2017}{11}{15}
+%%\Gap
+
+\href{https://classroom.udacity.com/courses/ud834}
+{Android Basics: User Interface},
+GOOGLE - UDACITY
+%%\hfill
+%%\DatestampYMD{2018}{01}{15}
+
+\href{https://classroom.udacity.com/courses/ud834}
+{Introduction to Operating Systems},
+Georgia Institute of Technology - UDACITY
+%%\hfill
+%%\DatestampYMD{2018}{02}{15}
+
+\Gap
+
+\end{Detail}
+
+%%%%%%%%%%%%%%%%%%
+%% PROJECTS %%
+%%%%%%%%%%%%%%%%%%
+
+\Section
+{PROJECTS}
+{PROJECTS}
+{PDF:PROJECTS}
+
+All Projects available on Git -
+\href{https://github.com/santhoshakashs24/}
+{\color{blue} \textbf{https://github.com/santhoshakashs24/ }}
+\Gap
+\Entry
+\BulletItem
+\href{https://github.com/santhoshakashs24/Flight-Booking-System-for-KIAL}
+{\color{blue} \textbf{Flight Ticket Booking System }}
+\SubBulletItem
+A flight ticket booking system using file operations to store the flight timings and read them to book ticket based on the timing comfortable to the user and city chosen using C++ programming language. 
+
+\Entry
+\BulletItem
+\href{https://github.com/santhoshakashs24/IE-Online-Judge}
+{\color{blue} \textbf{Online Judge}}
+{\textbf(On Going)}
+\SubBulletItem
+A Online Judge WebApp using Ruby on Rails framework which works similar to Hackerrank, Codechef for competitive programming.
+
+\Entry
+\BulletItem
+\href{https://github.com/santhoshakashs24/SME-NITK}
+{\color{blue} \color{blue}\textbf{SME Club Website }}
+\SubBulletItem
+A website designed for Society of Mining Engineers Club using HTML, CSS, Bootstrap with Google Maps API.
+
+\Entry
+\BulletItem
+\href{https://github.com/santhoshakashs24/santhoshakashs24.github.io}
+{\color{blue} \textbf{Personal Website}}
+{\textbf(On Going)}
+\SubBulletItem
+Personal Website using HTML, CSS, Bootstrap.
+
+%%%%%%%%%%%%%%%%%%%%%%%
+%% CAMPUS ACTIVITIES %%
+%%%%%%%%%%%%%%%%%%%%%%%
+
+\Section
+{Campus Activities}
+{Campus Activities}
+{PDF:CampusActivities}
+
+
+\Entry
+\BulletItem
+\href{https://www.facebook.com/MACD.NITK/}
+{\textbf{Executive Member}},
+Institute of Engineer NITK Student Chapter
+\hfill
+%%\DatestampYMD{2017}{08}{10} -- Present
+\SubBulletItem
+Into Code Self Interst Group, working on Online judge Project using Rails Framework.
+\SubBulletItem
+Designed poster for various events organized by Club.
+
+\Entry
+\BulletItem
+\href{https://www.facebook.com/MACD.NITK/}
+{\textbf{Executive Member}},
+Media, Art and Creative Design, NITK
+\hfill
+%%\DatestampYMD{2017}{08}{10} -- Present
+\Gap 
+
+\Entry
+\BulletItem
+\href{https://smenitk.000webhostapp.com/}
+{\textbf{Web Designer \& Co- Editor}},
+Society of Mining Engineers,NITK 
+\hfill
+%%\DatestampYMD{2017}{08}{10} -- Present
+\Gap 
+
+\Entry
+\BulletItem
+\href{https://www.facebook.com/interNITSports//}
+{\textbf{Hospitality Coordinator}},
+Inter Nit Sports organized in NITK
+%%\hfill
+%%\DatestampYMD{2018}{01}{12}
+\Gap 
+
+\Entry
+\BulletItem
+\href{http://nitk.ac.in/scst-cell}
+{\textbf{Teaching Mentor}},Professional Communication
+\SubBulletItem
+For 1st year students through SC/ST Cell Special Coaching Classes
+%%\hfill
+%%\DatestampYMD{2017}{08}{10} -- 
+%%\DatestampYMD{2017}{11}{10}
+\Gap
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% ACHIEVEMENTS AND AWARDS %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\Section
+{ACHIEVEMENTS
+AND AWARDS}
+{ACHIEVEMENTS AND AWARDS}
+{PDF:ACHIEVEMENTS AND AWARDS}
+
+\BulletItem
+KVS Regional Sports Meet, Gold Medal, Bangalore 
+\hfill
+%%\DatestampYM{2013}{09},
+%%\DatestampY{2014}
+\begin{Detail}
+\Item
+Awarded at Gold Medal in Taekwondo U-46kg Weight category for KVS Regional Sports Meet,Bangalore.
+\end{Detail}
+
+\Gap
+\BulletItem
+KVS National Sports Meet Participant
+\hfill
+%%\DatestampYM{2013}{10},
+%%\DatestampY{2014}
+\begin{Detail}
+\Item
+Represented Bangalore Region in Taekwondo U-46kg Weight category for 44th \& 45th KVS National Sports Meet held at Avadi,TamilNadu in 2013 and Delhi in 2014 respectively.
+\end{Detail}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% OTHER WORK EXPERIENCE %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\Section
+{EXTRA
+CURRICULAR
+ACTIVITIES}
+{EXTRA CURRICULAR ACTIVITIES}
+{PDF:EXTRA CURRICULAR ACTIVITIES}
+
+\Entry
+\BulletItem
+\href{http://www.nitk.ac.in/students-life/co-curricular-activities-recreation}
+{\textbf{NCC CADET}},
+2 KAR ENGG COY NCC NITK
+\hfill
+%%\DatestampYMD{2017}{08}{15} -- Present
+
+\Entry
+\BulletItem
+\href{https://www.facebook.com/EngineerNITK/}
+{ENGINEER'17} Fest Core Committee Member,NITK
+\hfill
+%%\DatestampYMD{2017}{10}{15} 
+\end{Detail}
+\end{document}
